@@ -1,0 +1,77 @@
+{"intents": [
+    	{"tag": "greeting",
+    	 "patterns": ["Hi", "How are You", "Is anyone there?", "Hello", "Good Day"],
+    	 "responses": ["Hello, thanks for visiting", "Good to see you", "Hi there, how can i help?"],
+    	 "context_set": ""
+    	},
+
+    	{"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+
+    	{"tag": "varsity",
+    	 "patterns": ["tell me about Daffodil International University", "DIU", "diu", "daffodil university", "want to know about daffodil varsity"],
+    	 "responses": ["I am going to tell you about DIU. This is one of top graded universities in bangladesh. 
+    	 It has been founded by Daffodil Group 
+	           with the approval of the Ministry of Education under the private university act of 1992. 
+	           The varsity came into being on 24th january 2002."]
+    	},
+
+    	{"tag": "campus",
+    	 "patterns": ["where is diu", "diu location", "campus", "where is the campus"],
+    	 "responses": ["There are two campuses. 
+                    	 One is Main campus and another one is Permanent Campus.
+            				Main Campus is located in Dhanmondi. Permanent Campus is in Ashulia"]
+    	},
+
+    	{"tag": "chairman",
+    	 "patterns": ["who is the chairman?", "chairman of DIU", "tell me about chairman sir", "founder", "chairman",  "Sabur Khan"],
+    	 "responses": ["Dr. Md Sabur Khan is the chairman and the Board Of Trusties of Daffodil International University"]
+    	},
+    	
+    	{"tag": "Faculties",
+    	 "patterns": ["faculties", "tell me about faculties", "how many faculties are there", "how many faculties"],
+    	 "responses": ["There are five faculties 
+                    	 1) Faculty of Science and Information Technology 2) Faculty of Engineering
+                			3) Faculty of Business & Entrepreneurship 
+                        	4) Faculty of Humanities and Social Science Faculty of Allied Health Science"]
+    	},
+
+    	{"tag": "Departments",
+    	 "patterns": ["departments", "how many departments", "departments in diu"],
+    	 "responses": ["There are 24 deparments now. 
+            	  They are 1) Department of Business Studies 2) Department of Real Estate
+    		      3) Department of Tourism & Hospitality Management 4) Department of Innovation & Entrepreneurship
+    		      5) Department of Computer Science & Engineering 6) Department of Computing & Information System (CIS)
+    		      7) Department of Software Engineering 8) Department of Environmental Science and Disaster Management
+    		      9) Department of Multimedia & Creative Technology (MCT) 10) Department of General Educational Development (GED)
+    		      11) Department of Electronics & Telecommunication Engineering  (ETE) 12) Department of Textile Engineering
+    		      13) Department of Electrical & Electronic Engineering 14) Department of Architecture 15) Department of Civil Engineering
+    		      16) Department of Pharmacy 17) Department of Public Health 18) Department of Nutrition & Food Engineering
+    		      19) Department of English 20) Department of Law 21) Department of Journalism & Mass Communication 22) Department of Development Studies
+    			23) Department of Information Science and Library Management 24) Department of Business Administration"]
+    	},
+
+    	{"tag": "Institutes",
+    	 "patterns": ["institutes", "institutes of daffodil", "daffodil institutes", "how many institutes daffodil have"],
+    	 "responses": ["There are four institutes of daffodil. 
+                    	 They are 1) Institutional Quality Assurance Cell (IQAC)
+            		     2) Human Resource Development Institute (HRD Institute) 
+            		     3) Daffodil Institute of Social Sciences (DISS)
+                		 4) Daffodil Institute of languages (DIL)"]
+    	},
+    	
+    	{"tag": "VC",
+	 "patterns": ["vice chancellor", "name of the vice chancellor of diu", "who is the vice chancellor of diu", "vc", "vice chancellor of diu", "vc of diu"],
+	 "responses": ["Professor Dr Yousuf Mahbubul Islam. 
+                	 He is the Hon'ble vice chancellor of Daffodil International University"]
+	},
+	
+	{"tag": "chancellor", 
+	 "patterns": ["who is the chancellor?", "chancellor", "chancellor of diu", "diu chancellor", "name of chancellor"],
+	 "responses": ["Mr. Md. Abdul Hamid. His the Hon’ble President of the People’s Republic of Bangladesh and
+			Hon’ble Chancellor of Daffodil International University"]
+	}
+    ]
+}
